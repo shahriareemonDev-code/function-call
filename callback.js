@@ -3,7 +3,7 @@
 // })
 //opore callback function
 
-function settelLife (name, isBcs) {
+function settelLife (name, isBcs,job) {
 
     if(isBcs===true) {
        console.log('valo') 
@@ -11,11 +11,12 @@ function settelLife (name, isBcs) {
     else{
         console.log('tahole ar ki')
     }
-
-    function biyeKorbo() {
-        console.log0
-    }
 }
+    function jobKorbo() {
+        console.log('chakri hole chakri korbo')
+    }
 
 
-settelLife('Emon', false)
+settelLife('Emon', false,jobKorbo);
+jobKorbo();
+//opore callback function//
